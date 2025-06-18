@@ -32,11 +32,6 @@ En este proyecto realizare un filtrador de datos para saber cual es el ranking d
 - script.js
   - Contendra la funcionalidad de la pagina
 
-## Validar estructura de usuarios activos
-
-En este proyecto realizaremos una validacion de estructura de datos para usuarios activos
-
-
 # Retrospectiva
 
 ## ¿Qué hicimos bien y cómo podemos seguir aplicando esto en proximos desarrollos?
@@ -60,3 +55,15 @@ En este proyecto realizaremos una validacion de estructura de datos para usuario
 
 - Distribuir mejor las tareas
 - Mejorar la distribucion del tiempo
+
+## Validar estructura de usuarios activos
+
+En este proyecto realizaremos una validacion de estructura de datos para usuarios activos
+
+### ¿Qué pasos fueron necesarios para resolver este ejercicio con éxito?
+
+- Fuimos muy puntuales a la hora del analisis del problema y realizar la solucion con exito
+
+### ¿Por qué crees que funcionó tu enfoque?
+
+- Seleccionamos solo los usuarios que estan activos por nombre, tambien separamos los que no estan activos y los que no tienen datos
