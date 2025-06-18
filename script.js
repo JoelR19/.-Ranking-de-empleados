@@ -6,16 +6,11 @@ const empleados = [
 
 /// Enunciado:
 /// Calcular el total de ventas por empleado, luego ordenar y devolver
-let total=[]
-let sumatoria=
-
-empleados.forEach((item)=>
-l  )
-
 /// los 2 mejores vendedores junto a su total.
 /// Resultado esperado:
 /// [{ nombre: "Laura", total: 900 }, { nombre: "Carlos", total: 600 }]
 
+empleados.forEach((item) => {let sumatoria=0; item.ventas.forEach((venta) => {sumatoria+=venta}); item.ventas=sumatoria}); console.log(empleados)
 
 
 
