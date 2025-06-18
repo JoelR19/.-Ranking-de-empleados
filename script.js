@@ -12,18 +12,6 @@ const empleados = [
 
 empleados.forEach((item) => {let sumatoria=0; item.ventas.forEach((venta) => {sumatoria+=venta}); item.ventas=sumatoria}); console.log(empleados)
 
-
-
-
-
-
-
-
-
-
-
-
-
 //Buscar empleado 
 let preguntaNombre = prompt(`Ingrese el nombre del empleado:`);
 const search = empleados.filter((item) => item.nombre === preguntaNombre)
@@ -49,3 +37,12 @@ function agregarEmpleado() {
 
 // Call the function to add an employee
 agregarEmpleado();
+
+const usuarios = [
+ { id: 1, activo: true, datos: { nombre: "Juan", edad: 30 } },
+ { id: 2, activo: false, datos: { nombre: "Diana", edad: 22 } },
+ { id: 3, activo: true, datos: null },
+];
+/// Enunciado:
+/// Devolver los nombres de los usuarios activos y que tengan datos completos.
+/// Ignorar usuarios con datos incompletos o inactivos.
